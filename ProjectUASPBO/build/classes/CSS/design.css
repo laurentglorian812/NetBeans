@@ -1,0 +1,32 @@
+/*buat felice*/
+
+/*.warnaputih = artinya kamu buat file class css dengan nama "xxx" */
+.warnaputih{
+    -fx-background-color:  #F0F0F0;
+}
+
+/*fx-background-color itu buat nentuin background nya mo warna apa , ini tuh rumus css nya bisa km cari di internet ada banyak*/
+/*kalau kamu mau buat class warna baru kamu copy paste aja code nya ,dan jangan lupa buat bedain nama class nya*/
+
+.warnahitam{
+    -fx-background-color: #000000;
+}
+
+
+/*nah ini subclass nya dari si class -fx-background-color */
+.backgroundlaut{
+    -fx-background-color: linear-gradient(to bottom, #00FFFF 50%, #E0FFFF 100%);
+  
+}
+.backgroundlaut2{
+    -fx-background-color: linear-gradient(to bottom, #87CEFA 50%, #191970 100%);
+  
+}
+.backgroundlaut3{
+    -fx-background-color: linear-gradient(to bottom, #7FFFD4 50%, #7B68EE 100%);
+  
+}
+.backgroundlaut4{
+    -fx-background-color: linear-gradient(to bottom, #E0FFFF 50%, #483D8B 100%);
+  
+}
