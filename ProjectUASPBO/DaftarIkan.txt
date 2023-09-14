@@ -1,0 +1,4 @@
+022001;Arwana Super Red;tawar;2900000
+021201;Lionfish;laut;80000
+021202;Badut;laut;50000
+021203;Dory;laut;250000

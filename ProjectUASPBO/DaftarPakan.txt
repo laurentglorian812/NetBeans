@@ -1,0 +1,3 @@
+035102;Hikari Seaweed Extreme;130000
+035101;Hikari Marine;80000
+036201;Sinking Pellet;100000
