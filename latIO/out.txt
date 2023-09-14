@@ -1,0 +1,4 @@
+ID: 130001
+Nama: Ara
+Posisi: Penyerang
+Skill: 4

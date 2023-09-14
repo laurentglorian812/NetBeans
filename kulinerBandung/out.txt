@@ -1,0 +1,23 @@
+----------------------------
+REKOMENDASI KULINER BANDUNG
+----------------------------
+Nama: Martabak Nikmat
+Jam Buka: 15.00 - 23.00
+Geolocation: -6.9189678107.5896501
+-----------------------------------
+Nama: Mie Lezat
+Jam Buka: 08.00 - 23.00
+Geolocation: -6.9196282107.5908758
+-----------------------------------
+Nama: Sate DJ
+Jam Buka: 16.30 - 01.30
+Geolocation: -6.9194502107.5939635
+-----------------------------------
+Nama: Ayam Goreng Susi Sari
+Jam Buka: 16.00 - 22.30
+Geolocation: -6.9205966107.6178998
+-----------------------------------
+Nama: Bakso Malang Enggal
+Jam Buka: 09.00 - 22.00
+Geolocation: -6.9248587107.6196881
+-----------------------------------
