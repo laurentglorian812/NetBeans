@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="185.0" prefWidth="265.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="contohdb1.FXML_inputsiswaController">
+   <children>
+      <Label layoutX="25.0" layoutY="25.0" text="NPM">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="60.0" text="Nama">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="95.0" text="Alamat">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="npm" layoutX="91.0" layoutY="23.0" />
+      <TextField fx:id="nama" layoutX="91.0" layoutY="58.0" />
+      <TextField fx:id="alamat" layoutX="91.0" layoutY="93.0" />
+      <Button fx:id="simpan" layoutX="26.0" layoutY="132.0" mnemonicParsing="false" onAction="#simpanclick" text="Simpan">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="batal" layoutX="112.0" layoutY="132.0" mnemonicParsing="false" onAction="#batalclick" text="Batal">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="keluar" layoutX="181.0" layoutY="132.0" mnemonicParsing="false" onAction="#keluarclick" text="Keluar">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
