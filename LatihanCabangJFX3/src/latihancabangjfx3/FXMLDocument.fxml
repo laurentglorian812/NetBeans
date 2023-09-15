@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="255.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="latihancabangjfx3.FXMLDocumentController">
+   <children>
+      <Label layoutX="25.0" layoutY="25.0" text="Shift">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="25.0" layoutY="61.0" text="Jam Lembur">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="96.0" text="Upah Pokok">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="131.0" text="Upah Per Jam">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="166.0" text="Upah Total">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="shift" layoutX="126.0" layoutY="23.0" prefWidth="150.0" />
+      <TextField fx:id="lembur" layoutX="127.0" layoutY="58.0" />
+      <TextField fx:id="pokok" editable="false" layoutX="127.0" layoutY="93.0" />
+      <TextField fx:id="perjam" editable="false" layoutX="127.0" layoutY="128.0" />
+      <TextField fx:id="total" editable="false" layoutX="127.0" layoutY="164.0" />
+      <Button fx:id="hitung" layoutX="25.0" layoutY="199.0" mnemonicParsing="false" onAction="#hitungclick" text="Hitung">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="hapus" layoutX="216.0" layoutY="199.0" mnemonicParsing="false" onAction="#hapusclick" text="Hapus">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
